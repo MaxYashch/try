@@ -1,1 +1,1 @@
-MaxYashch.github.io/try/cv
+MaxYashch.github.io/try/
