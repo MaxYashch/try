@@ -1,0 +1,241 @@
+.wrapper {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("./assets/images/bg-clean.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:1300px;
+    border: 1px solid black;
+}
+.header {
+    
+    height: 566px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("./assets/images/bg-header.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+}
+div.logo-navbar {
+    height: 85px;
+    width: 318px;
+    margin-top: 39px;
+    margin-left: 129px;   
+}
+
+
+
+.navbar {
+    margin-top: 5.5%;
+    margin-left: 249px;
+    line-height: 41px;
+    width: 454                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          px;
+    height: 41px;
+    background: #f5c505;
+    box-shadow: -5px -5px #f5c50596, -10px -10px #f5c50596;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li {
+    width: 33.3%;
+    height: 41px;
+}
+.navbar ul li a {
+    height: 41px;
+    width: 100px;
+    text-transform: uppercase;  
+    text-decoration: none;
+    display: block;
+    color: #9b7d08;    
+    font-size: 17px;
+    font-family: "Segoe WP";
+    text-align: center;
+}
+.navbar ul li a:hover {    
+    color: #9b4d05;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 30%;        
+}
+.navbar-about,
+.navbar-service,
+.navbar-contact {
+    display: inline-flex;
+}
+.navbar-about {
+    width: 173px;
+}
+.navbar-about,
+.navbar-service {
+    border-right: #9b7d08 solid 0.5px;
+}
+figure.navbar {
+    padding: 2% 0 0 23%;
+}
+.navbar-service {
+    width: 135px;
+    border-right: #9b7d08 solid 0.5px;
+}
+.navbar-contact {
+    width: 145px;
+}
+.about,
+.service, 
+.contact {
+align-items: center;
+}
+
+.slider {
+position: relative;
+}
+
+.slider__button {
+    width: 32px;
+    height: 57px;
+    position: absolute;   
+    top: 50%;
+}
+
+.slider__button--left {
+    left: 0;
+}
+
+.slider__button--right {
+    right:0;
+}
+
+.video {
+    width: 549px;
+    height: 327px;
+    margin-left: 150px;
+    margin-top: 56px;
+}
+.header-slider .video {
+    position: relative;
+    z-index: 10;
+    border: 1px solid black;
+
+}
+.cool-minimal img {
+   width: 392px;
+    height: 121px;
+    margin-left: ;
+    margin-top: ; 
+}
+
+.cloud {
+width: 110px;
+    height: 75px;
+    margin-left: 252px;
+}
+.better-design {
+width: 180px;
+    height: 21px;
+    margin-left: 229px;
+}
+.leaf {
+width: 92px;
+    height: 96px;
+    margin-left: 615px;
+}
+.customize {
+width: 136px;
+    height: 21px;
+    margin-left: 592px;
+}
+.plane {
+    width: 82px;
+    height: 84px;
+    margin-left: 938px;
+}
+.free {
+    width: 96px;
+    height: 21px;
+    margin-left: 933px;
+} 
+.header-white {
+    /* margin-top: 566px; */
+    width: 100%;
+    height: 10px;
+    background-image: url(./assets/images/Layer-24-copy-header-white.png);
+}
+.white-icon-layer {
+    /* margin-top: 576px; */
+    width: 100%;
+    height: 212px;
+    
+}
+.white-yellow {
+    /* margin-top: 212px; */
+    width: 100%;
+    height: 7px;
+    background-image: url(./assets/images/white-yellow.png);
+}
+.yellowBand {
+    /* margin-top: 576px; */
+    width: 100%;
+    height: 509px; 
+    background-image: url(./assets/images/Layer11-1X-white-grey-cell.png);
+}
+.greyBand {
+    /* margin-top: 576px; */
+    width: 100%;
+    height: 499px; 
+    background-image: url(./assets/images/Layer-321X-greyBand.png);
+}
+
+
+.lorum-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30.76923076923077%;
+}
+.lorum-list {
+    list-style-image: url(https://i.imgur.com/ye35iHx.png);
+}
+
+
+
+
+.footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 64px; 
+    background: #4c4c4c;
+    box-shadow: -0.105px -2.998px 5px rgba(0,0,0,0.75);
+}
+.logo-footer {
+    margin-left: 139px;
+    margin-bottom: 3px;
+    display: flex;  
+}
+.logo img {
+    position: relative;
+}
+.star-footer {
+    width: 56px;
+height: 56px;
+}
+.theyalow-footer {
+    margin: 17px 0 18px 8px;
+}
+.theyalow-footer p {
+    /* margin: 25% 0 0 -7%;
+    font-size: 21px;
+    color: #ffffff;
+    font-family: "Lucida Sans";
+    font-style: italic; */
+        line-height: 0.7;
+    font-size: 29px;
+letter-spacing: 0px;
+color: #ffffff;
+font-family: "Lucida Sans";
+font-style: italic;
+text-align: center;
+/* box-shadow: 1px 1.732px 0px rgba(0,0,0,0.42); */
+}
